@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# pnpm-specific files
+.pnpm-store/
+
+# Node modules
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local environment-specific files
+*.local
+.env.e2e-test.local
+
+# Cypress
+cypress/snapshots/__diff_output__
+cypress/screenshots
+cypress/videos
+cypress/downloads
